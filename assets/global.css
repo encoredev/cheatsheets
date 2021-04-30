@@ -1,0 +1,31 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* purgecss start ignore */
+
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Work+Sans:wght@700&display=swap');
+
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+    @apply text-gray-800 subpixel-antialiased;
+}
+
+html, body {
+    @apply h-full;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-header font-semibold;
+}
+
+pre {
+    tab-size: 4;
+}
+
+/* purgecss end ignore */
