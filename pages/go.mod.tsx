@@ -63,6 +63,8 @@ const GoModGuide: FC = () => {
               go mod tidy                               <span className="text-gray-400 hidden sm:inline"># organize and clean up go.mod and go.sum</span><br />
               <div className="text-gray-400 block sm:hidden mt-3"># download deps into module cache</div>
               go mod download                           <span className="text-gray-400 hidden sm:inline"># download deps into module cache</span><br />
+              <div className="text-gray-400 block sm:hidden mt-3"># clean deps from module cache</div>
+              go clean -cache -modcache                 <span className="text-gray-400 hidden sm:inline"># clean deps from module cache</span><br />
               <div className="text-gray-400 block sm:hidden mt-3"># initialize new module</div>
               go mod init github.com/path/to/module     <span className="text-gray-400 hidden sm:inline"># initialize new module</span><br />
               <div className="text-gray-400 block sm:hidden mt-3"># why is the module a dependency?</div>
