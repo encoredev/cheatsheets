@@ -1,6 +1,6 @@
 # Cheatsheets by Encore
 
-This repository hosts cheat sheets maintained by the team behind [encore.dev](encore.dev).
+This repository hosts cheat sheets maintained by the team behind [encore.dev](https://encore.dev).
 
 ## Building
 
